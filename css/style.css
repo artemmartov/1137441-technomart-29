@@ -1,0 +1,255 @@
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-red: #ee3643;
+  --basic-grey: #a9a9a9;
+  --basic-gold: #ffd180;
+  --third-background: #f3f7f9;
+  --fourth-background: #f1f5f7;
+  --second-background: #32425c;
+  --fifth-background: #293449;
+}
+
+body {
+  min-width: 940px;
+  font-size: 14px;
+  font-family: "Cuprum", Arial, sans-serif;
+  background: var(--basic-white);
+  color: var(--basic-black);
+}
+
+.header {
+  background-color: var(--third-background);
+}
+
+.header-orders {
+  background-color: var(--second-background);
+  color: var(--basic-white);
+}
+
+.header-products {
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.header-products a {
+  text-decoration: none;
+  color: var(--basic-white);
+}
+
+.header-info-title {
+  color: var(--basic-red);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.header-info-phone {
+  color: var(--basic-red);
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.header-info-address {
+  line-height: 24px;
+  color: var(--second-background);
+}
+
+.header-buttons {
+  list-style: none;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.header-button a {
+  text-decoration: none;
+  color: var(--basic-black);
+}
+
+.header-nav {
+  background-color: var(--second-background);
+}
+
+.header-nav-list {
+  list-style: none;
+}
+
+.header-nav-item a {
+  text-decoration: none;
+  color: var(--basic-white);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.categories-items {
+  list-style: none;
+}
+
+.categories-item-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--basic-white);
+}
+
+.categories-item-link {
+  color: var(--basic-white);
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.categories-slider-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.products-title {
+  color: var(--second-background);
+  font-size: 30px;
+}
+
+.products-link {
+  color: var(--basic-white);
+  font-size: 14px;
+}
+
+.products-items {
+  list-style: none;
+}
+
+.products-item-title {
+  font-family: PT Sans, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--basic-black);
+}
+
+.products-item-price {
+  font-family: PT Sans, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: var(--basic-grey);
+}
+
+.products-item a {
+  text-decoration: none;
+}
+
+.services {
+  background-color: var(--fourth-background);
+}
+
+.services-title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.services-subtitle {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.about-title {
+  font-size: 30px;
+}
+
+.contacts-title {
+  font-size: 30px;
+}
+
+.about-subtitle {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.about-partners {
+  list-style: none;
+}
+
+.about-partner {
+  font-size: 18px;
+}
+
+.basic-btn {
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  text-decoration: none;
+}
+
+.contacts-subtitle {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.footer-nav-items {
+  list-style: none;
+}
+
+.footer-logo {
+  text-decoration: none;
+  color: var(--basic-white);
+}
+
+.footer-nav-item a {
+  font-size: 18px;
+  color: var(--fourth-background);
+  text-decoration: none;
+}
+
+.footer-nav {
+  background-color: var(--second-background);
+}
+
+.footer-products {
+  background-color: var(--second-background);
+}
+
+.footer-contacts {
+  background-color: var(--fifth-background);
+}
+
+.footer-address {
+  font-size: 18px;
+  color: var(--third-background);
+}
+
+.footer-products-items {
+  list-style: none;
+}
+
+.footer-products-item {
+  color: var(--basic-gold);
+  font-size: 18px;
+}
+
+.footer-products-item a {
+  text-decoration: none;
+  color: var(--basic-gold);
+  font-size: 18px;
+}
+
+.footer-law {
+  font-size: 16px;
+  color: var(--basic-white);
+}
+
+.footer-accounts {
+  list-style: none;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: var(--basic-white);
+}
+
+.footer-span {
+  font-size: 16px;
+  color: var(--basic-gold);
+}
