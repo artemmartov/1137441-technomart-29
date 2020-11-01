@@ -22,6 +22,20 @@ body {
   background-color: var(--third-background);
 }
 
+.header-name {
+  font-size: 21px;
+}
+
+.header-links {
+  list-style: none;
+}
+
+.header-link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--second-background);
+}
+
 .header-orders {
   background-color: var(--second-background);
   color: var(--basic-white);
@@ -252,4 +266,46 @@ body {
 .footer-span {
   font-size: 16px;
   color: var(--basic-gold);
+}
+
+.filter-title {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.sort-title {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.product-btn-buy {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.product-btn-bookmarks {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--second-background);
+}
+
+.paging-buttons {
+  list-style: none;
+}
+
+.paging-button a {
+  text-decoration: none;
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  color: var(--basic-black);
+}
+
+.main-breadcrumbs {
+  list-style: none;
+}
+
+.main-breadcrumbs-item a {
+  color: var(--basic-black);
+  text-decoration: none;
 }
